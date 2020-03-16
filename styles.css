@@ -1,0 +1,22 @@
+/* Contact Styles */
+
+body{
+    background-image: url("backgroundimage.jpg");
+    background-size: cover;
+}
+
+    hr {
+        background: white;
+    }
+
+}
+.contact-form{
+    background:rgba(red, green, blue, alpha);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+h1{
+    color: teal;
+}
