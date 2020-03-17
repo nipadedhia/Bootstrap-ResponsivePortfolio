@@ -1,17 +1,18 @@
 /* Contact Styles */
 
+/*Added background image (located in computer folder) in a HTML file using CSS file*/
 body{
-    background-image: url("backgroundimage.jpg");
-    background-size: cover;
-}
+    background-image: url("./Images/backgroundimage.jpg");
+    background-repeat: repeat;
+        }
 
+    /* line break after the header */
     hr {
         background: white;
     }
 
 }
 .contact-form{
-    background:rgba(red, green, blue, alpha);
     color:white;
     margin-top: 100px;
     padding: 20px;
