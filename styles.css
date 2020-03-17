@@ -16,7 +16,12 @@ body{
         color: gray;
     }
 
-.contact-form{
+    img.floatleft{
+        float: left;
+        margin: 4px;
+    }
+
+  .contact-form{
     color:black solid;
     margin-top: 100px;
     padding: 20px;
