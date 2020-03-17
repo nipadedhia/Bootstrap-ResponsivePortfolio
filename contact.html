@@ -8,6 +8,9 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- google font styles for Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+
     <!-- Link CSS Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 
@@ -17,67 +20,69 @@
 <body>
     <nav class="navbar navbar-expand-lg justify-content-between bg-warning navbar-light fixed-top">
         <nav class="navbar navbar-light bg-light ">
-            <h1 class="navbar-brand">Hibiscus </h1>
+            <a class="navbar-brand" href="about.html">Nature </a>
         </nav>
 
         <ul class="navbar-nav">
             <li class="nav-items">
-                <a class="nav-link" href="#"> About</a>
+                <a class="nav-link" href="about.html" target="_blank"> About</a>
             </li>
             <li class="nav-items">
-                <a class="nav-link" href="#"> Portfolio</a>
+                <a class="nav-link" href="portfolio.html" target="_blank"> Portfolio</a>
             </li>
             <li class="nav-items">
-                <a class="nav-link" href="#"> Contact</a>
+                <a class="nav-link" href="contact.html" target="_blank"> Contact</a>
             </li>
         </ul>
     </nav>
 
-    <!-- Creates the Overall Grid -->
-    <div class=" container contact-form">
+    <main>
+        <!-- Creates the Overall Grid -->
+        <div class=" container contact-form">
+            
+            <!-- Row 1 -->
+            <div class="row">
+                <div class="col-sm-12 mt-1">
+                    <div class="page-header">
+                        <h1> <strong> Contact </strong></h1>
 
-        <!-- Added background image (located in computer folder) in a HTML file using CSS file -->
-        <img src="../Bootstrap-ResponsivePortfolio/Images/backgroundimage.jpg" alt="backgroundimage">
+                        <hr>
 
-        <!-- Row 1 -->
-        <div class="row">
-            <div class="col-sm-12 mt-5">
-                <h1>Contact</h1>
-
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-
-                <div class="form-group">
-                    <label>Name:</label>
-                    <input type="text" class="form-control">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label>Email:</label>
-                    <input type="text" class="form-control">
-                </div>
-
-                <div class="form-group">
-                    <label>Message:</label>
-                    <textarea class="form-control" rows="5"></textarea>
-                </div>
-
-                <div class="form-group">
-                    <button class="btn btn-primary button"> Submit</button>
-                </div>
-
             </div>
 
-        </div>
+            <div class="row">
+                <div class="col-md-6">
 
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type="text" class="form-control">
+                    </div>
 
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input type="text" class="form-control">
+                    </div>
 
+                    <div class="form-group">
+                        <label>Message:</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
 
+                    <div class="form-group">
+                        <button class="btn btn-primary button"> Submit</button>
+                    </div>
 
+                </div>
+
+            </div>
+
+    </main>
+
+    <footer class="footer">
+        <h5>copyright</h5>
+    </footer>
 
 
 

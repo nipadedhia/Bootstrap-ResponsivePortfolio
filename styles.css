@@ -4,20 +4,35 @@
 body{
     background-image: url("./Images/backgroundimage.jpg");
     background-repeat: repeat;
-        }
+    /* google fonts */
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
+    }
 
     /* line break after the header */
     hr {
         background: white;
+        border: solid;
+        color: gray;
     }
 
-}
 .contact-form{
-    color:white;
+    color:black solid;
     margin-top: 100px;
     padding: 20px;
 }
 
 h1{
     color: teal;
+    }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
