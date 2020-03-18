@@ -3,7 +3,8 @@
 /*Added background image (located in computer folder) in a HTML file using CSS file*/
 body{
     background-image: url("./Images/backgroundimage.jpg");
-    background-repeat: repeat;
+    /* background-repeat:  */
+    /* background-size: cover; */
     /* google fonts */
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
@@ -32,12 +33,12 @@ h1{
     }
 
   .footer {
-    position: fixed;
+    position: sticky-bottom;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:gray;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
