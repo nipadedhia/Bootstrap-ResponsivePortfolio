@@ -3,8 +3,8 @@
 /*Added background image (located in computer folder) in a HTML file using CSS file*/
 body{
     background-image: url("./Images/backgroundimage.jpg");
-    /* background-repeat:  */
-    /* background-size: cover; */
+    /* background-repeat:  no-repeat;
+    background-size: cover; */
     /* google fonts */
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
@@ -24,7 +24,7 @@ body{
 
   .contact-form{
     color:black solid;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -33,7 +33,7 @@ h1{
     }
 
   .footer {
-    position: sticky-bottom;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
