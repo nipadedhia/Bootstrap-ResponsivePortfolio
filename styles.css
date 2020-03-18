@@ -2,9 +2,9 @@
 
 /*Added background image (located in computer folder) in a HTML file using CSS file*/
 body{
-    background-image: url("./Images/backgroundimage.jpg");
-    /* background-repeat:  no-repeat;
-    background-size: cover; */
+    background-image: url("./Images/backgroundimage.jpeg");
+    background-repeat:  no-repeat;
+    background-size: cover;
     /* google fonts */
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
@@ -33,7 +33,6 @@ h1{
     }
 
   .footer {
-    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
