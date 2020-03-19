@@ -17,7 +17,7 @@ body{
         color: gray;
     }
 
-    img.floatleft{
+        img.floatleft{
         float: left;
         margin: 4px;
     }
@@ -33,6 +33,7 @@ h1{
     }
 
   .footer {
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
