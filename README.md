@@ -2,7 +2,7 @@
 I have created website named “Nature” using Bootstrap CSS Framework to create mobile responsive portfolio. I have used contents from the website “https://www.gardeningknowhow.com/ornamental/flowers/hibiscus/how-to-care-for-hibiscus-plants.htm” and reference is added to the website on About page. 
 
 ## index.html, portfolio.html and contact.html files:
-•	Navbar is consistent on each page, and it contains About, Portfolio and Contact pages. Clicking on link, user is navigated to that specific page.
+** Navbar is consistent on each page, and it contains About, Portfolio and Contact pages. Clicking on link, user is navigated to that specific page.
 •	Clicking on “Nature” from any page, navigates to About (Home) page. 
 •	Used Semantic HTML structure
 •	Used Bootstrap grid system (container, rows and columns)
