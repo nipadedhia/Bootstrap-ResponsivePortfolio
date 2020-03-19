@@ -3,8 +3,8 @@ I have created website named “Nature” using Bootstrap CSS Framework to creat
 
 ## index.html, portfolio.html and contact.html files:
 ** Navbar is consistent on each page, and it contains About, Portfolio and Contact pages. Clicking on link, user is navigated to that specific page.
-•	Clicking on “Nature” from any page, navigates to About (Home) page. 
-•	Used Semantic HTML structure
+** Clicking on “Nature” from any page, navigates to About (Home) page. 
+** Used Semantic HTML structure
 •	Used Bootstrap grid system (container, rows and columns)
 •	Used class=”img-fluid” to make images responsive.
 •	Used validation service website “Validator.w3.org” to validate each page.
